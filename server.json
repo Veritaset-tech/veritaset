@@ -4,7 +4,21 @@
   "title": "Veritaset",
   "description": "Verified, sourced mobile plan prices in 32 European markets and the US, ranked by public rules.",
   "websiteUrl": "https://veritaset.com/agents/",
-  "repository": { "url": "https://github.com/Veritaset-tech/veritaset", "source": "github" },
+  "repository": {
+    "url": "https://github.com/Veritaset-tech/veritaset",
+    "source": "github"
+  },
   "version": "0.5.0",
-  "remotes": [ { "type": "streamable-http", "url": "https://veritaset.com/mcp" } ]
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://veritaset.com/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://veritaset.com/favicon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ]
 }
