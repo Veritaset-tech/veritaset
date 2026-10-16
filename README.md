@@ -10,7 +10,7 @@ MCP server: `https://veritaset.com/mcp` (streamable HTTP, no account or key need
 
 | Client | How |
 |---|---|
-| Claude (claude.ai, desktop, mobile) | Settings → Connectors → Add custom connector → `https://veritaset.com/mcp` |
+| Claude (claude.ai, desktop, mobile) | Listed in the Claude connector directory: Settings → Connectors → Browse → **Veritaset** (or add `https://veritaset.com/mcp` as a custom connector) |
 | Claude Code | `claude mcp add --transport http veritaset https://veritaset.com/mcp` |
 | Codex | add `[mcp_servers.veritaset]` with `url = "https://veritaset.com/mcp"` to `~/.codex/config.toml` |
 | ChatGPT | Developer mode → add MCP connector → `https://veritaset.com/mcp` |
